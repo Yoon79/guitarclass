@@ -19,8 +19,9 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">Your Name</h1>
-          <p className="text-xl md:text-2xl text-gray-200 mb-8">Singer-Songwriter & Guitarist</p>
+          <p className='text-xl md:text-2xl mb-4 animation-bounce'>축 개강 🎉</p>
+          <h1 className="text-5xl md:text-7xl font-bold mb-4">윤이의 기타교실</h1>
+          <p className="text-lg md:text-xl text-gray-200 mb-8">Singer-Songwriter & Guitarist</p>
           <motion.button
             className="bg-white text-black px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-200 transition-colors"
             whileHover={{ scale: 1.05 }}
