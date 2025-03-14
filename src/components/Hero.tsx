@@ -19,7 +19,9 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <p className='text-xl md:text-2xl mb-4 animation-bounce'>축 개강 🎉</p>
+          <p className='text-xl md:text-2xl lg:text-3xl font-bold mb-4 animate-bounce bg-gradient-to-r from-lime-500 via-sky-500 to-indigo-500 text-transparent bg-clip-text p-1 tracking-wider transform hover:scale-110 transition-transform duration-300 cursor-default'>
+            축 개강 🎉
+          </p>
           <h1 className="text-5xl md:text-7xl font-bold mb-4">윤이의 기타교실</h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8">Singer-Songwriter & Guitarist</p>
           <motion.button

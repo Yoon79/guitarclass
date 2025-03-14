@@ -42,11 +42,10 @@ const About = () => {
             className="space-y-6"
           >
             <p className="text-lg text-gray-300">
-              안녕하세요, 저는 [이름]입니다. 음악을 통해 사람들의 마음을 움직이고 
-              감동을 전하는 것을 사명으로 삼고 있습니다.
+              안녕하세요, 윤이입니다. 
             </p>
             <p className="text-lg text-gray-300">
-              10년 동안 기타리스트이자 싱어송라이터로 활동하면서, 
+              10년 이상 기타리스트이자 싱어송라이터로 활동하면서, 
               저만의 독특한 음악 스타일을 발전시켜 왔습니다.
             </p>
             <div className="grid grid-cols-2 gap-4 mt-8">
