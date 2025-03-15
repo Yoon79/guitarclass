@@ -13,7 +13,7 @@ const About = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold mb-4">어바웃 미</h2>
           <div className="w-20 h-1 bg-white mx-auto" />
         </motion.div>
 

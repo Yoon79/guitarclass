@@ -31,10 +31,11 @@ const Navigation = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a href="#about" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">About</a>
-              <a href="#music" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Music</a>
-              <a href="#curriculum" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Curriculum</a>
-              <a href="#contact" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+              <a href="#about" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">어바웃미</a>
+              {/* <a href="#music" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Music</a> */}
+              <a href="#album" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">앨범</a>
+              <a href="#curriculum" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">커리큘럼</a>
+              <a href="#contact" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">문의</a>
             </div>
           </div>
         </div>

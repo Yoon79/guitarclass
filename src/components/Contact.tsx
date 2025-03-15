@@ -56,7 +56,7 @@ const Contact = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-4">Contact Me</h2>
+          <h2 className="text-4xl font-bold mb-4">문의</h2>
           <div className="w-20 h-1 bg-white mx-auto" />
         </motion.div>
 
