@@ -1,7 +1,7 @@
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Music from '@/components/Music'
-import Gallery from '@/components/Gallery'
+import Curriculum from '@/components/Curriculum'
 import Contact from '@/components/Contact'
 import Navigation from '@/components/Navigation'
 
@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <Music />
-      <Gallery />
+      <Curriculum />
       <Contact />
     </>
   )

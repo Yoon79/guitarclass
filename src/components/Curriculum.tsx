@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 
-const Gallery = () => {
+const Curriculum = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
   const images = [
@@ -16,7 +16,7 @@ const Gallery = () => {
   ]
 
   return (
-    <section id="gallery" className="py-20 bg-gradient-to-b from-gray-900 to-black">
+    <section id="curriculum" className="py-20 bg-gradient-to-b from-gray-900 to-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -25,7 +25,7 @@ const Gallery = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-4">Gallery</h2>
+          <h2 className="text-4xl font-bold mb-4">Curriculum</h2>
           <div className="w-20 h-1 bg-white mx-auto" />
         </motion.div>
 
@@ -81,4 +81,4 @@ const Gallery = () => {
   )
 }
 
-export default Gallery 
+export default Curriculum 
