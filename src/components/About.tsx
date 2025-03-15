@@ -54,7 +54,7 @@ const About = () => {
                 <p className="text-gray-400">Years Experience</p>
               </div>
               <div className="text-center p-4 bg-black/50 rounded-lg">
-                <h3 className="text-3xl font-bold mb-2">50+</h3>
+                <h3 className="text-3xl font-bold mb-2">100+</h3>
                 <p className="text-gray-400">Original Songs</p>
               </div>
             </div>
