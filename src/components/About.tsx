@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-gray-500">
+    <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -14,7 +14,7 @@ const About = () => {
           className="text-center mb-12"
         >
           <h2 className="text-4xl font-bold mb-4">어바웃 미</h2>
-          <div className="w-20 h-1 bg-white mx-auto" />
+          <div className="w-20 h-1 bg-gray-800 mx-auto" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -41,21 +41,21 @@ const About = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <p className="text-lg text-gray-300">
+            <p className="text-lg text-gray-600">
               안녕하세요, 윤이입니다. 
             </p>
-            <p className="text-lg text-gray-300">
+            <p className="text-lg text-gray-600">
               10년 이상 기타리스트이자 싱어송라이터로 활동하면서, 
               저만의 독특한 음악 스타일을 발전시켜 왔습니다.
             </p>
             <div className="grid grid-cols-2 gap-4 mt-8">
               <div className="text-center p-4 bg-black/50 rounded-lg">
                 <h3 className="text-3xl font-bold mb-2">10+</h3>
-                <p className="text-gray-400">Years Experience</p>
+                <p className="text-gray-50">Years Experience</p>
               </div>
               <div className="text-center p-4 bg-black/50 rounded-lg">
                 <h3 className="text-3xl font-bold mb-2">100+</h3>
-                <p className="text-gray-400">Original Songs</p>
+                <p className="text-gray-50">Original Songs</p>
               </div>
             </div>
           </motion.div>

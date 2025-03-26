@@ -6,39 +6,75 @@ import { useEffect, useState } from 'react'
 const albums = [
   {
     id: 1,
-    title: "Acoustic Dreams",
-    artist: "Guitar Academy",
+    title: "From. Paris",
+    artist: "스웨덴세탁소",
     cover: "/album1.jpg"
   },
   {
     id: 2,
-    title: "Electric Vibes",
-    artist: "Guitar Academy",
+    title: "잠들때까지",
+    artist: "스웨덴세탁소",
     cover: "/album2.jpg"
   },
   {
     id: 3,
-    title: "Fingerstyle Journey",
-    artist: "Guitar Academy",
+    title: "순간",
+    artist: "스웨덴세탁소",
     cover: "/album3.jpg"
   },
   {
     id: 4,
-    title: "Blues & Beyond",
+    title: "우리집",
     artist: "Guitar Academy",
     cover: "/album4.jpg"
   },
   {
     id: 5,
-    title: "Classical Fusion",
-    artist: "Guitar Academy",
+    title: "Be Your Christmas",
+    artist: "스웨덴세탁소",
     cover: "/album5.jpg"
   },
   {
     id: 6,
-    title: "Rock Legends",
-    artist: "Guitar Academy",
+    title: "내가 사랑하는 시간",
+    artist: "스웨덴세탁소",
     cover: "/album6.jpg"
+  },
+  {
+    id: 7,
+    title: "우리가 핀 1 - 잔상(殘像)",
+    artist: "스웨덴세탁소",
+    cover: "/album7.jpg"
+  },
+  {
+    id: 8,
+    title: " 우리가 핀 2 - 조각",
+    artist: "스웨덴세탁소",
+    cover: "/album8.jpg"
+  },
+  {
+    id: 9,
+    title: " 사랑의 모양",
+    artist: "스웨덴세탁소",
+    cover: "/album9.jpg"
+  },
+  {
+    id: 10,
+    title: "꿈결",
+    artist: "스웨덴세탁소",
+    cover: "/album10.jpg"
+  },
+  {
+    id: 11,
+    title: "푸른동경",
+    artist: "스웨덴세탁소",
+    cover: "/album11.jpg"
+  },
+  {
+    id: 12,
+    title: "오렌지 빛을 쥐고",
+    artist: "스웨덴세탁소",
+    cover: "/album12.jpg"
   }
 ]
 
